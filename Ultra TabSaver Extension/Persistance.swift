@@ -82,11 +82,11 @@ class Persistance {
                     self.current_pageWindow  = window
                     window?.getAllTabs(completionHandler: { tab_list in
                         for _ in tab_list{
-                               NSWorkspace.shared.open(URL(string:"https://www.google.com")!)
+                               NSWorkspace.shared.open(URL(string:"https://www.ecosia.org")!)
                                if (tab_list.count > 1){
                                    currentTab.close()
                                }else{
-                                   NSWorkspace.shared.open(URL(string:"https://www.google.com")!)
+                                   NSWorkspace.shared.open(URL(string:"https://www.ecosia.org")!)
                                     currentTab.close()
                                return
                             }
@@ -146,7 +146,7 @@ class Persistance {
                                         }
                                         self.persist()
                                       })
-                                    NSWorkspace.shared.open(URL(string:"https://www.google.com")!)
+                                    NSWorkspace.shared.open(URL(string:"https://www.ecosia.org")!)
                                     if (i < tab_list.count){
                                         tab.close()
                                         i += 1

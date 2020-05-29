@@ -420,10 +420,10 @@
 			buildSettings = {
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ultra TabSaver Extension/Ultra_TabSaver_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 86HW4XSB6Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Ultra TabSaver Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,6 +434,7 @@
 				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "VMP01.Ultra-TabSaver-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -444,10 +445,10 @@
 			buildSettings = {
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ultra TabSaver Extension/Ultra_TabSaver_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 86HW4XSB6Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Ultra TabSaver Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,6 +459,7 @@
 				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "VMP01.Ultra-TabSaver-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -470,10 +472,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ultra TabSaver/Ultra_TabSaver.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 86HW4XSB6Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Ultra TabSaver/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,6 +485,7 @@
 				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "VMP01.Ultra-TabSaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -494,10 +497,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ultra TabSaver/Ultra_TabSaver.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 86HW4XSB6Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Ultra TabSaver/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,6 +510,7 @@
 				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "VMP01.Ultra-TabSaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
